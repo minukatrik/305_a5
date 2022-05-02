@@ -1,0 +1,49 @@
+# Define main
+    # prompting function file_name and using that file for the scores
+    # calling function that prompts the user what to do and runs the program
+
+# function that ask user for file for input
+    # return the inputed file name
+
+# function that prompts the intro
+
+# function that makes 3 dictionaries out of the file and produces the scores
+    # opening the file and making a list out of the lines
+    # creating a stripped list with only numbers and letters
+    # creating a dictionary with the words and their summed scores
+    # creating a dictionary with the word and the times the are in the file
+    # creating a dictionary with the word and the score          
+    # returning the dictionary with the scores
+
+# function that ask user what he wants to do and calls the given function
+    #function doesnt stop until user enters 5
+            #if operation equels 1 calls function score()
+            #if operation equels 2 calls function average()
+            #if operation equels 3 calls function high_low()
+            #if operation equels 4 calls fucntion sort_words()
+        #prompts the intro and question every time
+
+#function that prints the scores and if its positive or negative            
+    #asks user for word 
+    #quits if word is not in dictionary
+
+#function that prints the average score of words in a given file    
+    #summing the total scores of all the words in file
+    #makes the average of this sum
+    #prints if the score is neutral, negative or positive
+    #new score should be added to the dictionary but did not get to that
+
+#function that prints the lowest and highest score of words in given file
+    #ask user for file name
+    #make a list of the scores of the words
+    #get the minimum score out of the list
+    #get the maximum score out of the list
+    #and print the scores
+
+#function that sorts words in dictionary in two files: negative and positive words
+    #creating negative and positive list
+    #for every key in the dictionary looks if value is negative or postive
+            #and ads value to negative or positive list
+    #printing the lists into seperate files
+
+#call main
